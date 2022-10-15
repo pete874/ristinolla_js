@@ -162,6 +162,9 @@ function voitonTarkistus() {
     document.getElementById("ruutu8").disabled = true;
     document.getElementById("ruutu9").disabled = true;
   }
+
+  // Tarkistetaan tasapeli
+
 }
 
 
@@ -286,4 +289,30 @@ function ruutu9Klikki() {
     document.getElementById("ruutu9").disabled = true;
     vuoronTarkistus = 1;
   }
+}
+
+//Pöydän tyhjennys funktio
+
+function tyhjenna() {
+  //Muutetaan valuet tyhjiksi
+  document.getElementById('ruutu1').value = "";
+  document.getElementById('ruutu2').value = "";
+  document.getElementById('ruutu3').value = "";
+  document.getElementById('ruutu4').value = "";
+  document.getElementById('ruutu5').value = "";
+  document.getElementById('ruutu6').value = "";
+  document.getElementById('ruutu7').value = "";
+  document.getElementById('ruutu8').value = "";
+  document.getElementById('ruutu9').value = "";
+
+  // poistetaan kaikki disabloidut ruudut
+  document.getElementById("ruutu1").disabled = false;
+  document.getElementById("ruutu2").disabled = false;
+  document.getElementById("ruutu3").disabled = false;
+  document.getElementById("ruutu4").disabled = false;
+  document.getElementById("ruutu5").disabled = false;
+  document.getElementById("ruutu6").disabled = false;
+  document.getElementById("ruutu7").disabled = false;
+  document.getElementById("ruutu8").disabled = false;
+  document.getElementById("ruutu9").disabled = false;
 }
