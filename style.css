@@ -1,0 +1,33 @@
+
+
+body {
+	margin: 0;
+  text-align: center;
+}
+
+#poyta{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+
+}
+
+.cell {
+	width: 100px;
+	height: 100px;
+	border: 1px solid black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	cursor: pointer;
+  text-align: center;
+  font-size: 70px;
+}
+
+.cell:disabled {
+  background-color: lightgrey;
+}
