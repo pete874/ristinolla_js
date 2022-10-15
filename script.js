@@ -14,6 +14,9 @@ function voitonTarkistus() {
   var ruutu8 = document.getElementById('ruutu8').value;
   var ruutu9 = document.getElementById('ruutu9').value;
 
+
+
+
   // Käydään kaikki 8 voittomahdollisuutta läpi if lauseilla X pelaajan kohdalla.
 
   if (ruutu1 == "X" && ruutu2 == "X" && ruutu3 == "X")  {
@@ -186,6 +189,16 @@ var ruutu8 = document.getElementById('ruutu8');
 var ruutu9 = document.getElementById('ruutu9');
 
 function ruutu1Klikki() {
+  var ruutu1 = document.getElementById('ruutu1');
+  var ruutu2 = document.getElementById('ruutu2');
+  var ruutu3 = document.getElementById('ruutu3');
+  var ruutu4 = document.getElementById('ruutu4');
+  var ruutu5 = document.getElementById('ruutu5');
+  var ruutu6 = document.getElementById('ruutu6');
+  var ruutu7 = document.getElementById('ruutu7');
+  var ruutu8 = document.getElementById('ruutu8');
+  var ruutu9 = document.getElementById('ruutu9');
+
   if (vuoronTarkistus == 1) {
     var ruutu1 = document.getElementById('ruutu1');
     ruutu1.classList.add("uusiclassi");
@@ -333,7 +346,7 @@ function tyhjenna() {
   document.getElementById('ruutu7').classList.remove("uusiclassi")
   document.getElementById('ruutu8').classList.remove("uusiclassi")
   document.getElementById('ruutu9').classList.remove("uusiclassi")
-  
+
   //Muutetaan valuet tyhjiksi
   document.getElementById('ruutu1').value = "";
   document.getElementById('ruutu2').value = "";

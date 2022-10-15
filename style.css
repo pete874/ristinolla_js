@@ -29,7 +29,7 @@ body {
   border-color: white;
   background-color: grey;
   border-radius: 15px;
-  color: white;
+  color: red;
 
 }
 
@@ -39,4 +39,8 @@ body {
 
 button {
   margin-top: 50px;
+}
+
+.uusiclassi {
+	color: blue;
 }
