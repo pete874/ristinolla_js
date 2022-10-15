@@ -14,6 +14,9 @@ function voitonTarkistus() {
   var ruutu8 = document.getElementById('ruutu8').value;
   var ruutu9 = document.getElementById('ruutu9').value;
 
+
+
+
   // Käydään kaikki 8 voittomahdollisuutta läpi if lauseilla X pelaajan kohdalla.
 
   if (ruutu1 == "X" && ruutu2 == "X" && ruutu3 == "X")  {
@@ -176,7 +179,18 @@ var vuoronTarkistus = 1;
 // Jokaiselle ruudulle oma funktio joka tarkistaa vuoron ja syöttää "x" tai "0" arvon vuoron mukaan
 
 function ruutu1Klikki() {
+  var ruutu1 = document.getElementById('ruutu1');
+  var ruutu2 = document.getElementById('ruutu2');
+  var ruutu3 = document.getElementById('ruutu3');
+  var ruutu4 = document.getElementById('ruutu4');
+  var ruutu5 = document.getElementById('ruutu5');
+  var ruutu6 = document.getElementById('ruutu6');
+  var ruutu7 = document.getElementById('ruutu7');
+  var ruutu8 = document.getElementById('ruutu8');
+  var ruutu9 = document.getElementById('ruutu9');
+
   if (vuoronTarkistus == 1) {
+    ruutu1.classList.add("uusiclassi")
     document.getElementById('ruutu1').value = "X";
     document.getElementById("ruutu1").disabled = true;  //disabloidaan ruutu joka vuoron jälkeen, jottei samaan ruutuun pysty laittamaa uudestaan
     vuoronTarkistus = 0;
@@ -190,6 +204,7 @@ function ruutu1Klikki() {
 
 function ruutu2Klikki() {
   if (vuoronTarkistus == 1) {
+    ruutu2.classList.add("uusiclassi")
     document.getElementById('ruutu2').value = "X";
     document.getElementById("ruutu2").disabled = true;
     vuoronTarkistus = 0;
@@ -203,6 +218,7 @@ function ruutu2Klikki() {
 
 function ruutu3Klikki() {
   if (vuoronTarkistus == 1) {
+    ruutu3.classList.add("uusiclassi")
     document.getElementById('ruutu3').value = "X";
     document.getElementById("ruutu3").disabled = true;
     vuoronTarkistus = 0;
@@ -216,6 +232,7 @@ function ruutu3Klikki() {
 
 function ruutu4Klikki() {
   if (vuoronTarkistus == 1) {
+    ruutu4.classList.add("uusiclassi")
     document.getElementById('ruutu4').value = "X";
     document.getElementById("ruutu4").disabled = true;
     vuoronTarkistus = 0;
@@ -229,6 +246,7 @@ function ruutu4Klikki() {
 
 function ruutu5Klikki() {
   if (vuoronTarkistus == 1) {
+    ruutu5.classList.add("uusiclassi")
     document.getElementById('ruutu5').value = "X";
     document.getElementById("ruutu5").disabled = true;
     vuoronTarkistus = 0;
@@ -242,6 +260,7 @@ function ruutu5Klikki() {
 
 function ruutu6Klikki() {
   if (vuoronTarkistus == 1) {
+    ruutu6.classList.add("uusiclassi")
     document.getElementById('ruutu6').value = "X";
     document.getElementById("ruutu6").disabled = true;
     vuoronTarkistus = 0;
@@ -255,6 +274,7 @@ function ruutu6Klikki() {
 
 function ruutu7Klikki() {
   if (vuoronTarkistus == 1) {
+    ruutu7.classList.add("uusiclassi")
     document.getElementById('ruutu7').value = "X";
     document.getElementById("ruutu7").disabled = true;
     vuoronTarkistus = 0;
@@ -268,6 +288,7 @@ function ruutu7Klikki() {
 
 function ruutu8Klikki() {
   if (vuoronTarkistus == 1) {
+    ruutu8.classList.add("uusiclassi")
     document.getElementById('ruutu8').value = "X";
     document.getElementById("ruutu8").disabled = true;
     vuoronTarkistus = 0;
@@ -281,6 +302,7 @@ function ruutu8Klikki() {
 
 function ruutu9Klikki() {
   if (vuoronTarkistus == 1) {
+    ruutu9.classList.add("uusiclassi")
     document.getElementById('ruutu9').value = "X";
     document.getElementById("ruutu9").disabled = true;
     vuoronTarkistus = 0;
