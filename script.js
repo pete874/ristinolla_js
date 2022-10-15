@@ -178,27 +178,7 @@ var vuoronTarkistus = 1;
 
 // Jokaiselle ruudulle oma funktio joka tarkistaa vuoron ja syöttää "x" tai "0" arvon vuoron mukaan
 
-
-var ruutu2 = document.getElementById('ruutu2');
-var ruutu3 = document.getElementById('ruutu3');
-var ruutu4 = document.getElementById('ruutu4');
-var ruutu5 = document.getElementById('ruutu5');
-var ruutu6 = document.getElementById('ruutu6');
-var ruutu7 = document.getElementById('ruutu7');
-var ruutu8 = document.getElementById('ruutu8');
-var ruutu9 = document.getElementById('ruutu9');
-
 function ruutu1Klikki() {
-  var ruutu1 = document.getElementById('ruutu1');
-  var ruutu2 = document.getElementById('ruutu2');
-  var ruutu3 = document.getElementById('ruutu3');
-  var ruutu4 = document.getElementById('ruutu4');
-  var ruutu5 = document.getElementById('ruutu5');
-  var ruutu6 = document.getElementById('ruutu6');
-  var ruutu7 = document.getElementById('ruutu7');
-  var ruutu8 = document.getElementById('ruutu8');
-  var ruutu9 = document.getElementById('ruutu9');
-
   if (vuoronTarkistus == 1) {
     var ruutu1 = document.getElementById('ruutu1');
     ruutu1.classList.add("uusiclassi");
