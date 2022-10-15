@@ -1,4 +1,5 @@
 
+
 //tarkistetaan joka vuorolla onko voittoa tullut. Tehdään funktio sitä varten.
 function voitonTarkistus() {
 
@@ -315,4 +316,6 @@ function tyhjenna() {
   document.getElementById("ruutu7").disabled = false;
   document.getElementById("ruutu8").disabled = false;
   document.getElementById("ruutu9").disabled = false;
+  //Muutetaan vuorontarkistus takas 1
+  vuoronTarkistus = 1;
 }
