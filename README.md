@@ -1,3 +1,3 @@
 # ristinolla_js
 
-Ristinollapeli käyttäen HTML,CSS ja JavaScript
+Tic-Tac-Toe. HTML,CSS ja JavaScript
